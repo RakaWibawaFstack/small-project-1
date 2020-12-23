@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 150px;
+
+}
+
+
+body {
+    background: #E7F0F2;
+    background: linear-gradient(to right, #E7F0F2 60%, white 40%); 
+}
+
+footer{
+    margin-bottom: 20px;
+    
+}
+
+.menuimg{
+    border-top: 2px solid rgb(76, 81, 82);
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    flex-grow: 1;
+}
+
+.category {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.list-container {
+    border-right: 2px solid #E7F0F2;
+}
+
+.semboyan {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    flex-grow: 10;
+    text-align: right;
+}
+
+.text-kanan {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 50px;
+    border-top: 2px solid #E7F0F2;
+    width: 100%; 
+    padding-top: 20px;
+}
+
+.img1{
+    background-image: url(Gallery1.jpg);
+    background-size: cover;
+    width: 215px;
+    height: 114px;
+    float: right;
+    margin-left: 6%;
+    margin-bottom: 10%;
+    border-radius: 5%;
+    transition: 0.3%;
+    color: #ffffff;
+}
+
+.img2{
+    background-image: url(Shopping.jpg);
+    background-size: cover;
+    width: 215px;
+    height: 114px;
+    float: right;
+    margin-left: 6%;
+    margin-bottom: 10%;
+    border-radius: 5%;
+    transition: 0.3%;
+    color: #ffffff;
+}
+
+.img3{
+    background-image: url(Gallery2.jpg);
+    background-size: cover;
+    width: 215px;
+    height: 114px;
+    float: right;
+    margin-left: 6%;
+    margin-bottom: 10%;
+    border-radius: 5%;
+    transition: 0.3%;
+    color: #ffffff;
+}
+
+.img4{
+    text-align: center;
+}
+
+
+
+
+.img1 h4{
+    padding-top: 70px;
+    padding-right: 10px;
+}
+
+.img1 p{
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.img2 h4{
+    padding-top: 70px;
+    padding-right: 10px;
+}
+
+.img2 p{
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.img3 h4{
+    padding-top: 70px;
+    padding-right: 10px;
+}
+
+.img3 p{
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+
+.btn-container {
+    font-family: "Ubuntu", "Roboto", sans-serif;
+    flex-grow: 1;
+}
+
+.semboyan-container {
+    margin-top: 100px;
+}
+
+.btn-shop {
+    border: none;
+    padding: 13px 20px;
+    font-family: "Ubuntu", "Roboto", sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+.bold {
+    font-weight: bolder;
+}
+.d-flex {
+    display: flex;
+}
+
+.li-style-none {
+    list-style: none;
+    font-family: "Ubuntu", "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.li-style-ada {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.link-button {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link-buttonb {
+    color: #000000;
+    text-decoration: none;
+}
+
+.border-li {
+    border-right: #e7f0f2 solid 2px;
+}
+
+.menu {
+    margin: 20px;
+    flex-grow: 1;
+}
+
+.picture {
+    margin-top: 50px;
+    text-align: right;
+    display: inline-flex;
+}
+
+.item-picture {
+    padding-left: 50px;
+}
+
+.celar {
+    clear: right;
+}
